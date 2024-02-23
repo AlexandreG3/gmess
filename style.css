@@ -1,0 +1,105 @@
+@import url('https://fonts.google.com/specimen/Lato?preview.text=EstateVirtual&preview.text_type=custom&query=lato');
+
+@import url('btn1.css');
+@import url('slidesHear.css');
+@import url('footer.css');
+@import url('container.css');
+
+@import url('Boasvindas.css');
+body {
+    font-family: 'lato', sans-serif;
+    background-image: url(Imagem/fundo.jpg);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    
+  }
+  a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    
+  }
+  a:hover {
+    color: rgb(199, 3, 150); 
+}
+.header{
+    position: fixed;
+    background-color:rgb(0,0,0,0.30);
+    width: 100%;
+    padding: 0px 0px;
+    z-index: 12;
+    height: 90px;
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0); 
+    
+  }
+
+  
+  .login-button {
+    
+    position: absolute;
+    bottom: 10%; 
+    left: 10%; 
+    background-color: #010508; 
+    color: #fff; 
+    padding: 1.5% 3%; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+  .header-scroll {
+    background-image: url(banne1.jpg); 
+    transition: background-color 0.3s ease; 
+   
+}
+
+  .menu nav{
+    margin-bottom: 20px;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+    height: 50px;
+    
+  }
+
+ .logo .menu  a{
+display: inline-block;
+    text-decoration: none;
+    color: azure;
+    font-size: 35px;
+    font-weight: 500;
+
+  }
+
+  
+
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li {
+    list-style: none;
+    margin-left: 7px;
+  }
+   .menu ul li{
+    text-decoration: none;
+    color:rgb(8, 93, 167);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.4s ease;}
+
+    @keyframes changeColor {
+        from {
+            background-color: rgb(0, 0, 0, 0.80); 
+        }
+        to {
+            background-color: rgb(255, 0, 0); 
+        }
+    }
+
+   

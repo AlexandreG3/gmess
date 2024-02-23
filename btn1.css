@@ -1,0 +1,125 @@
+/*#btn{
+    text-align: right; /* Alinha o conteúdo à direita */
+  position: relative;
+  padding: 0px 20px;margin-top: -50px;
+  
+}
+
+/*.btn-light {
+    
+    background-color:rgba(48, 34, 59, 0.9);
+    border: 0 solid #209c07;
+    box-sizing: border-box;
+    color: #f8f2f2;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+   position: relative;
+    text-align: center;
+    text-decoration: none #f7f2f2 solid;
+    text-decoration-thickness: auto;
+    width: 10%;
+    max-width: 1250px;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: auto;
+    
+  }*/
+  
+  /*.btn-light:focus {
+    outline: 0;
+  }
+  
+  .btn-light:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #166286;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+  }
+  
+  .btn-light:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+  
+  @media (min-width: 768px) {
+    .btn-light {
+      padding: .5rem 3rem;
+      font-size: 1.25rem;
+    }
+  }*/
+
+  #btn {
+    text-align: right;
+    position: relative;
+    margin-top: -50px;
+  }
+  
+  .btn-light {
+    background-color: rgba(7, 6, 7, 0.9);
+    border: 0 solid #209c07;
+    box-sizing: border-box;
+    color: #f8f2f2;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #f7f2f2 solid;
+    text-decoration-thickness: auto;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: auto;
+    margin-top: -60px;
+    width: 150px;
+    margin-right: 20px;
+  }
+  
+  .btn-light:focus {
+    outline: 0;
+  }
+  
+  .btn-light:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #166286;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+  }
+  
+  .btn-light:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+  
+  @media (max-width: 768px) {
+    /* Esconda o botão quando a tela for menor ou igual a 768 pixels */
+    .btn-light {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .btn-light {
+      padding: .5rem 3rem;
+      font-size: 1.25rem;
+    }
+  }
+  
