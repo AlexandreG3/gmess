@@ -24,7 +24,9 @@
 .Principal h1 {
   text-align: center;
   width: 100%; /* Alterado para 100% para ocupar toda a largura disponível */
-  color: #730202;
+  color: #ffffff;
+  background-color: rgb(191, 191, 184,0.5);
+  border-radius: 50%;
 }
 
 .image {
@@ -60,7 +62,7 @@
 
 .text a {
   background-color: #f1eded;
-  color: #730202;
+  color: #0c0c0c;
   font-size: 16px;
   padding: 16px 32px;
   text-decoration: none;
@@ -113,7 +115,7 @@
   position: absolute;
   bottom: 0;
   background:rgb(191, 191, 184,0.5);
-  color: #730202;
+  color: #f1f1f1;
   width: 100%;
   padding: 20px;
   max-width: 300px;
