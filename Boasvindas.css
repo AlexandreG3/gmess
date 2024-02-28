@@ -7,7 +7,31 @@
     flex-wrap: wrap;
     align-items: center;
     padding: 40px;
+    line-height: 2;
     
+}
+.welcome-image {
+    position: relative;
+    display: inline-block; /* Certifique-se de que o contêiner se ajuste ao tamanho da imagem */
+}
+
+.welcome-image::after {
+    
+    content: '';
+    position: absolute;
+    border: 1px solid #166286;
+    bottom: 4px;
+    left: 20px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+.welcome-image:hover::after {
+    bottom: 2px;
+    left: 2px;
+}
+.welcome-image:hover {
+    opacity: 0.7; /* Define a opacidade para 70% quando o mouse passa por cima */
 }
 .welcome-text {
     flex: 1;
@@ -17,17 +41,17 @@
 .welcome-text h1 {
     font-size: 24px;
     font-weight: bold;
-    color: #dd1088;
+    color: #730202;
 }
 .welcome-text p {
     font-size: 16px;
-    color: #fff8f8;
+    color: #145E8C;
 }
 .welcome-image {
     flex: 1;
     text-align: right;
     width: 40%; 
-            text-align: right;
+            text-align: right; transition: opacity 0.5s ease;  
 }
 .welcome-image img {
     max-width: 100%;

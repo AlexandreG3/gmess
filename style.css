@@ -3,12 +3,12 @@
 @import url('btn1.css');
 @import url('slidesHear.css');
 @import url('footer.css');
-@import url('container.css');
+@import url('servicos.css');
 
 @import url('Boasvindas.css');
 body {
     font-family: 'lato', sans-serif;
-    background-image: url(Imagem/fundo.jpg);
+    background-color:#F0F2F2;
     margin: 0;
     padding: 0;
     font-size: 20px;
@@ -16,7 +16,7 @@ body {
   }
   a {
     text-decoration: none;
-    color: white; 
+    color: #145E8C; 
     font-weight: bold;
     
   }
@@ -25,7 +25,7 @@ body {
 }
 .header{
     position: fixed;
-    background-color:rgb(0,0,0,0.30);
+    background-color:rgb(191, 191, 184,0.3);
     width: 100%;
     padding: 0px 0px;
     z-index: 12;
@@ -48,8 +48,28 @@ body {
     border-radius: 5px; 
     cursor: pointer;
 }
+
+.login-button:focus {
+  outline: 0;
+}
+
+.login-button:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #166286;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.login-button:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
   .header-scroll {
-    background-image: url(banne1.jpg); 
+    background-color: #BFBFB8; 
     transition: background-color 0.3s ease; 
    
 }
