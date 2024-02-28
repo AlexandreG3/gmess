@@ -65,7 +65,7 @@
   }
   
   .btn-light {
-    background-color: rgba(7, 6, 7, 0.9);
+    background-color: rgba(68, 57, 57, 0.5);
     border: 0 solid #209c07;
     box-sizing: border-box;
     color: #f8f2f2;
@@ -109,17 +109,17 @@
     left: 2px;
   }
   
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 780px) {
     /* Esconda o botão quando a tela for menor ou igual a 768 pixels */
     .btn-light {
       display: none;
     }
-  }
   
-  @media (min-width: 768px) {
+    /* Ajustar para telas menores que 768px */
     .btn-light {
-      padding: .5rem 3rem;
-      font-size: 1.25rem;
+      font-size: 0.9rem; /* Diminuir o tamanho da fonte */
+      padding: 0.5rem 1.5rem; /* Ajustar preenchimento */
     }
   }
+  
   

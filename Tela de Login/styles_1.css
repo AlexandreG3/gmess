@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(library-869061_1920.jpg);
+    margin: 0;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; /* Torna o contêiner flexível */
+    flex-direction: column; /* Define o eixo principal como vertical */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+
+.form {
+    background-color: rgba(26, 43, 43, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Garante que o formulário preencha todo o contêiner */
+    max-width: 300px; /* Define a largura máxima do formulário */
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
