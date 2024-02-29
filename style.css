@@ -74,6 +74,9 @@ body {
    
 }
 
+ 
+
+
   .menu nav{
     margin-bottom: 20px;
     max-width: 1250px;
@@ -83,7 +86,6 @@ body {
     justify-content: center;
     padding: 0px 0px;
     height: 50px;
-    
   }
 
  .logo .menu  a{
@@ -94,7 +96,7 @@ display: inline-block;
     font-weight: 500;
 
   }
-
+  
   
 
   .menu ul{
