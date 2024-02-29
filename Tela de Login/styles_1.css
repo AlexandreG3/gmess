@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(library-869061_1920.jpg);
+    background-color:  rgba(20, 94, 140, 0.5);
     margin: 0;
-    
 }
 
 .container {
@@ -14,10 +13,11 @@ body {
     flex-direction: column; /* Define o eixo principal como vertical */
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Adiciona altura total da viewport */
 }
 
 .form {
-    background-color: rgba(26, 43, 43, 0.6);
+    background-color:  rgba(245, 246, 247, 0.993);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -28,6 +28,7 @@ body {
 .form h2 {
     margin-bottom: 20px;
     text-align: center;
+    color: #ccc;
 }
 
 input[type="email"],
@@ -49,7 +50,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #032346;
 }
 
 .offer {
@@ -60,4 +61,5 @@ button:hover {
     color: #007bff;
     text-decoration: none;
 }
+
 
