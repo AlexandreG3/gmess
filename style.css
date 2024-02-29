@@ -75,7 +75,10 @@ body {
 }
 
  
+.logo{
 
+  color: rgb(10, 71, 71);
+}
 
   .menu nav{
     margin-bottom: 20px;

@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(jess-bailey-q10VITrVYUM-unsplash.jpg);
+    background-color: rgb(20, 94, 140, 0.5);
     background-size: cover; /* Garante que a imagem de fundo cubra toda a tela */
     background-position: center; /* Centraliza a imagem de fundo */
     padding: 20px; /* Adiciona um espaçamento interno */
@@ -13,7 +13,7 @@ body {
     max-width: 400px;
     margin: 0 auto; 
     
-    background-color: rgb(20, 94, 140, 0.5); /* Adiciona cor de fundo ao contêiner */
+    background-color: rgba(245, 246, 247, 0.993); /* Adiciona cor de fundo ao contêiner */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,7 @@ body {
 .form h2 {
     margin-bottom: 20px;
     text-align: center;
-    color: #f3f3f3;
+    color: rgb(20, 94, 140, 0.5);
 }
 
 input[type="text"],
@@ -51,14 +51,14 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 button {
-    background-color: #BFBFB8;
-    color: #145E8Cff;
+    background-color: #0056b3;
+    color: rgb(231, 238, 241);
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #040f1b;
 }
 
 .or {
