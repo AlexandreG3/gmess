@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(20, 94, 140, 0.5);
+    background-image: linear-gradient(135deg , rgb(255, 255, 255) 80%, #000000 20%);
     background-size: cover; /* Garante que a imagem de fundo cubra toda a tela */
     background-position: center; /* Centraliza a imagem de fundo */
     padding: 20px; /* Adiciona um espaçamento interno */
@@ -13,7 +13,7 @@ body {
     max-width: 400px;
     margin: 0 auto; 
     
-    background-color: rgba(245, 246, 247, 0.993); /* Adiciona cor de fundo ao contêiner */
+    background-color: rgba(0, 0, 0, 0.993); /* Adiciona cor de fundo ao contêiner */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,7 @@ body {
 .form h2 {
     margin-bottom: 20px;
     text-align: center;
-    color: rgb(20, 94, 140, 0.5);
+    color: #c4ff0d;
 }
 
 input[type="text"],
@@ -51,14 +51,15 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 button {
-    background-color: #0056b3;
+    background-color: #ffffff48;
     color: rgb(231, 238, 241);
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #040f1b;
+    background-color:#c4ff0d;
+    color: #000000;
 }
 
 .or {
@@ -90,10 +91,15 @@ button:hover {
 
 .offer {
     text-align: center;
+    color: #ffffff;
 }
 
 .offer a {
-    color: #007bff;
+    color: #c4ff0d;
+    text-decoration: none;
+}
+a:hover{
+    color: #4b0404;
     text-decoration: none;
 }
 

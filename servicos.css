@@ -4,13 +4,15 @@
   flex-wrap: wrap;
   max-width: 100%; 
   padding: 0 20px; 
-  background-image: url(jess-bailey-q10VITrVYUM-unsplash.jpg);
+  
+  background-image: linear-gradient(135deg , rgb(255, 255, 255) 50%, #c4ff0d 50%); /* Define o gradiente linear */
 }
+
 
 .container {
   position: relative;
-  width: 250px; 
-  height: 250px; 
+  width: 200px; 
+  height: 200px; 
   max-width: 100%; /* Alterado para 100% para garantir que o contêiner seja responsivo */
   margin: 0 20px; 
   box-sizing: border-box;
@@ -24,8 +26,8 @@
 .Principal h1 {
   text-align: center;
   width: 100%; /* Alterado para 100% para ocupar toda a largura disponível */
-  color: #ffffff;
-  background-color: rgb(191, 191, 184,0.5);
+  color: #000000;
+
   border-radius: 50%;
 }
 
@@ -61,8 +63,8 @@
 }
 
 .text a {
-  background-color: #f1eded;
-  color: #0c0c0c;
+  background-color: #000000;
+  color: #ffffff;
   font-size: 16px;
   padding: 16px 32px;
   text-decoration: none;
@@ -77,7 +79,7 @@
 .text:after {
   content: '';
   position: absolute;
-  border: 1px solid #166286;
+  border: 1px solid #c4ff0d;
   bottom: 4px;
   left: 4px;
   width: calc(100% - 1px);
@@ -100,7 +102,8 @@
 .container-5,
 .container-6,
 .container-7,
-.container-8 {
+.container-8,
+.container-9 {
   margin-bottom: 20px; /* Espaçamento entre os containers */
 }
 
@@ -111,18 +114,24 @@
 .container-5 .content,
 .container-6 .content,
 .container-7 .content,
-.container-8 .content {
+.container-8 .content,
+.container-9 .content {
   position: absolute;
-  bottom: 0;
-  background:rgb(191, 191, 184,0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-  max-width: 300px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  transition: opacity 0.3s;
-  border-radius: 0 0 7% 7%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(17, 17, 16, 0.8);
+    color: #ffffff;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    transition: opacity 0.3s;
+    border-radius: 0 0 7% 7%;
+    height: 30%;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
 }
 
 /* Estilo para .container-1 .content durante o hover do container principal */
@@ -133,7 +142,8 @@
 .container-5:hover .content,
 .container-6:hover .content,
 .container-7:hover .content,
-.container-8:hover .content  {
+.container-8:hover .content,
+.container-9:hover .content  {
   opacity: 0;
 }
 

@@ -1,3 +1,8 @@
+#wel{
+
+    background-color: #000000;
+}
+
 
 
 .p {
@@ -20,7 +25,7 @@
     
     content: '';
     position: absolute;
-    border: 1px solid #166286;
+    border: 1px solid #c4ff0d;
     bottom: 4px;
     left: 20px;
     width: calc(100% - 1px);
@@ -43,7 +48,7 @@
     
     content: '';
     position: absolute;
-    border: 1px solid #166286;
+    border: 1px solid #c4ff0d;
     bottom: 4px;
     left: 20px;
     width: calc(100% - 1px);
@@ -65,11 +70,11 @@
 .welcome-text h1 {
     font-size: 24px;
     font-weight: bold;
-    color: #730202;
+    color: #c4ff0d;
 }
 .welcome-text p {
     font-size: 16px;
-    color: #145E8C;
+    color: #ffffff;
 }
 .welcome-image {
     flex: 1;
