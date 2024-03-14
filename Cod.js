@@ -77,5 +77,40 @@ defClass(1, 0);
 
 
 
+document.addEventListener("DOMContentLoaded", function() {
+  var containers = document.querySelectorAll('.container');
+  var showMoreButton = document.getElementById('show-more-button');
 
+  var visible = 4; // Quantidade inicial de contêineres visíveis
+  var increment = 4; // Quantidade a ser adicionada quando "Ver Mais" for clicado
 
+  // Mostra os contêineres até o valor de "visible"
+  function showContainers() {
+    for (var i = 0; i < visible; i++) {
+      containers[i].style.display = 'block';
+    }
+  }
+
+  // Adiciona ou remove contêineres quando o botão "Ver Mais" é clicado
+  function toggleContainers() {
+    visible += increment;
+
+    if (visible >= containers.length) {
+      // Se todos os contêineres forem visíveis, oculta o botão "Ver Mais"
+      showMoreButton.style.display = 'none';
+    }
+
+    showContainers();
+  }
+
+  // Mostra os contêineres iniciais
+  showContainers();
+
+  // Exibe o botão "Ver Mais" quando necessário
+  if (containers.length > visible) {
+    showMoreButton.style.display = 'block';
+  }
+
+  // Adiciona um evento de clique ao botão "Ver Mais"
+  showMoreButton.addEventListener('click', toggleContainers);
+});
