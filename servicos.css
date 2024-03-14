@@ -213,17 +213,3 @@
   padding: 10px 20px; /* Espaçamento interno do botão */
 }
 
-.show-more:after {
-  content: '';
-  position: absolute;
-  border: 1px solid #c4ff0d;
-  bottom: 4px;
-  left: 4px;
-  width: calc(100% - 1px);
-  height: calc(100% - 1px);
-}
-
-.show-more:hover:after {
-  bottom: 2px;
-  left: 2px;
-}

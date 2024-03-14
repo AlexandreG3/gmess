@@ -81,8 +81,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var containers = document.querySelectorAll('.container');
   var showMoreButton = document.getElementById('show-more-button');
 
-  var visible = 4; // Quantidade inicial de contêineres visíveis
-  var increment = 4; // Quantidade a ser adicionada quando "Ver Mais" for clicado
+  var visible = 5; // Quantidade inicial de contêineres visíveis
+  var increment = 5; // Quantidade a ser adicionada quando "Ver Mais" for clicado
 
   // Mostra os contêineres até o valor de "visible"
   function showContainers() {
